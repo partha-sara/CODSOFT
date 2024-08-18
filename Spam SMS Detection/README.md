@@ -18,58 +18,7 @@ To run this project, you will need the following Python libraries:
 - `matplotlib`
 - `seaborn`
 
-You can install the required libraries using pip:
-
-```bash
-pip install pandas scikit-learn matplotlib seaborn
-```
-
-## File Structure
-
-- `spam_classification.py`: The main script that performs the following tasks:
-  - Loads and preprocesses the dataset.
-  - Splits the dataset into training and testing sets.
-  - Vectorizes text data using TF-IDF.
-  - Trains a Naive Bayes classifier.
-  - Evaluates the model's performance.
-  - Provides visualizations for model evaluation.
-
-- `data/`: Directory containing the dataset file:
-  - `spam.csv`: The dataset file with SMS messages and their labels.
-
-## How to Run
-
-1. **Download the Dataset**: Ensure the dataset file `spam.csv` is located in the `data/` directory.
-
-2. **Run the Script**:
-   ```bash
-   python spam_classification.py
-   ```
-
-   This will execute the script, which will perform the following:
-   - Load and preprocess the data.
-   - Train a Naive Bayes classifier.
-   - Print the model's accuracy, confusion matrix, and classification report.
-   - Display visualizations for model evaluation.
-
-## Example Output
-
-The script will print the following information:
-- **Accuracy**: The overall accuracy of the model.
-- **Confusion Matrix**: A matrix showing the true vs. predicted classifications.
-- **Classification Report**: Detailed metrics including precision, recall, and F1-score for each class.
-
-Visualizations will include:
-- **Confusion Matrix Heatmap**: A visual representation of the confusion matrix.
-- **Distribution of Predictions**: A bar plot showing the distribution of predicted labels.
-
-## Optional: Testing with Custom Messages
-
-You can test the model with custom SMS messages by modifying the `sample_message` variable in the script. The script will output the predicted label for the given message.
-
-```python
-sample_message = ["Congratulations! You've won a $1,000 Walmart gift card. Go to http://bit.ly/123456 to claim now."]
-```
+You can install the required libraries using pip.
 
 ## License
 
