@@ -1,6 +1,7 @@
 # MOVIE GENRE CLASSIFICATION
 
-##Definition: Movie Genre Classification involves the automatic identification of the genre of a movie based on its description. This process utilizes machine learning and natural language processing (NLP) techniques to analyze textual data, transforming it into meaningful patterns that a model can use to accurately predict the genre.
+##Definition 
+      Movie Genre Classification involves the automatic identification of the genre of a movie based on its description. This process utilizes machine learning and natural language processing (NLP) techniques to analyze textual data, transforming it into meaningful patterns that a model can use to accurately predict the genre.
 
 ### 1. **Data Loading and Handling:**
    - The dataset is loaded from a CSV file into a Pandas DataFrame, with precautions taken to skip any malformed lines to prevent errors. The file is read with UTF-8 encoding to ensure that special characters are properly handled.
